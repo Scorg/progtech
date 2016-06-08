@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tp_lab", "tp_lab\tp_lab.csproj", "{9537A068-3BFF-4985-8E2D-4373E34C7891}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3594C225-B5A2-41AE-816E-23D58D776B6F} = {3594C225-B5A2-41AE-816E-23D58D776B6F}
+		{A0B546F7-ED5B-4A69-8F21-842F2CA7FFED} = {A0B546F7-ED5B-4A69-8F21-842F2CA7FFED}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDTPUserControls", "..\..\common\BDTPUserControls\BDTPUserControls.csproj", "{A0B546F7-ED5B-4A69-8F21-842F2CA7FFED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTPClasses", "..\..\common\DBTPClasses\DBTPClasses.csproj", "{3594C225-B5A2-41AE-816E-23D58D776B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tp_api_demo", "tp_api_demo\tp_api_demo.csproj", "{153E9290-FC0B-45E1-A25E-26E347B881BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9537A068-3BFF-4985-8E2D-4373E34C7891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9537A068-3BFF-4985-8E2D-4373E34C7891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9537A068-3BFF-4985-8E2D-4373E34C7891}.Debug|x64.ActiveCfg = Debug|x64
+		{9537A068-3BFF-4985-8E2D-4373E34C7891}.Debug|x64.Build.0 = Debug|x64
+		{9537A068-3BFF-4985-8E2D-4373E34C7891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9537A068-3BFF-4985-8E2D-4373E34C7891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9537A068-3BFF-4985-8E2D-4373E34C7891}.Release|x64.ActiveCfg = Release|x64
+		{9537A068-3BFF-4985-8E2D-4373E34C7891}.Release|x64.Build.0 = Release|x64
+		{A0B546F7-ED5B-4A69-8F21-842F2CA7FFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B546F7-ED5B-4A69-8F21-842F2CA7FFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B546F7-ED5B-4A69-8F21-842F2CA7FFED}.Debug|x64.ActiveCfg = Debug|x64
+		{A0B546F7-ED5B-4A69-8F21-842F2CA7FFED}.Debug|x64.Build.0 = Debug|x64
+		{A0B546F7-ED5B-4A69-8F21-842F2CA7FFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B546F7-ED5B-4A69-8F21-842F2CA7FFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B546F7-ED5B-4A69-8F21-842F2CA7FFED}.Release|x64.ActiveCfg = Release|x64
+		{A0B546F7-ED5B-4A69-8F21-842F2CA7FFED}.Release|x64.Build.0 = Release|x64
+		{3594C225-B5A2-41AE-816E-23D58D776B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3594C225-B5A2-41AE-816E-23D58D776B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3594C225-B5A2-41AE-816E-23D58D776B6F}.Debug|x64.ActiveCfg = Debug|x64
+		{3594C225-B5A2-41AE-816E-23D58D776B6F}.Debug|x64.Build.0 = Debug|x64
+		{3594C225-B5A2-41AE-816E-23D58D776B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3594C225-B5A2-41AE-816E-23D58D776B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3594C225-B5A2-41AE-816E-23D58D776B6F}.Release|x64.ActiveCfg = Release|x64
+		{3594C225-B5A2-41AE-816E-23D58D776B6F}.Release|x64.Build.0 = Release|x64
+		{153E9290-FC0B-45E1-A25E-26E347B881BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153E9290-FC0B-45E1-A25E-26E347B881BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153E9290-FC0B-45E1-A25E-26E347B881BA}.Debug|x64.ActiveCfg = Debug|x64
+		{153E9290-FC0B-45E1-A25E-26E347B881BA}.Debug|x64.Build.0 = Debug|x64
+		{153E9290-FC0B-45E1-A25E-26E347B881BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153E9290-FC0B-45E1-A25E-26E347B881BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153E9290-FC0B-45E1-A25E-26E347B881BA}.Release|x64.ActiveCfg = Release|x64
+		{153E9290-FC0B-45E1-A25E-26E347B881BA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
