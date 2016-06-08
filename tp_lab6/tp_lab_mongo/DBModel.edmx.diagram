@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ed1788876a1244ddab7c5fa7c0a13c8a" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Address" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Attribute" Width="1.5" PointX="7.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Category" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Customer" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Manufacturer" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Order" Width="1.5" PointX="7.625" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OrderStatus" Width="1.5" PointX="10" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Product" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ProductAttribute" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ProductStatus" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="Model.product_attribute_attribute_id_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.category_parent_id_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.product_category_id_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.order_customer_id_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.product_manufacturer_id_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.order_status_id_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.product_attribute_product_id_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.product_status_id_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.address_customer_id_fkey" />
+        <EntityTypeShape EntityType="Model.OrderProduct" Width="1.5" PointX="5.25" PointY="3.875" />
+        <AssociationConnector Association="Model.order_product_order_id_fkey" />
+        <AssociationConnector Association="Model.order_product_product_id_fkey" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
